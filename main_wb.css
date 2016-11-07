@@ -1,0 +1,52 @@
+body {
+	background-color: #6495ED;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+}
+
+.logo {
+	height: 35px;
+	padding-top: 40px;
+}
+
+.form-section {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+
+h1 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+label, button, input {
+	display: block;
+	width: 320px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+label {
+	text-align: left;
+	padding-left: 40px;
+}
+
+input {
+	text-align: left;
+	padding-left: 40px;
+}
+
+button {
+	text-align: center;
+	background-color: #98FB98;
+}
+
+span {
+	display: inline-block;
+	text-align: center;
+}
