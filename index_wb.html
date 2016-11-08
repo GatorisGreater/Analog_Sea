@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Analog Sea | Home</title>
+	<title>Analog Sea | Sign Up</title>
 
 	<!-- Stylesheet -->
   <link rel="stylesheet" href="main_wb.css" />
 </head>
 <body>
 	<header>
-		<img class="logo" src="logo.png">
+		<img class="logo" src="logo.png" alt="AnalogSea Logo" />
 	</header>
 	<main>
 
 	<section class="form-section">
 		<h1>Sign Up</h1>
-			<form action="/signup/">
-				<label for="email" required>Email</label>
-				<input type="email" name="email" id="email" placeholder="foo@bar.com" />
+			<form action="/signup/" method="post">
+				<label for="email">Email</label>
+				<input type="email" name="user-email" id="email" placeholder="foo@bar.com" required />
 
-				<label for="password" required>Password</label>
-				<input type="text" name="password" id="password" placeholder="1234passw0rd" />
+				<label for="password">Password</label>
+				<input type="text" name="user-password" id="password" placeholder="1234passw0rd" required />
 
 				<button type="submit">Sign Up</button>
-				<a href="/forgot-password/new">Forgot Password?</a>
+				<p><a href="/forgot-password/new">Forgot Password?</a></p>
 			</form>
 	</section>
 
-	<span class="Existing-Login">Already have an account?
-	<a href="/login">Log in</a></span>
+	<div class="footer">
+	<p>Already have an account? <a href="/login">Log in</a></p></div>
 	</main>
 </body>
 </html>
