@@ -7,27 +7,23 @@
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-	<header>
-		<img class="logo" src="logo.png" alt="AnalogSea Logo" />
-	</header>
-	<main>
-
-	<section class="form-section">
-		<h1>Sign Up</h1>
-			<form action="/signup/" method="post">
+	<img class="logo" src="logo.png" alt="AnalogSea Logo" />
+	
+	<form class="form-section" action="/signup/" method="post">
+			<legend>Sign Up</legend>
+			
 				<label for="email">Email</label>
 				<input type="email" name="user-email" id="email" placeholder="foo@bar.com" required />
 
 				<label for="password">Password</label>
-				<input type="text" name="user-password" id="password" placeholder="1234passw0rd" required />
+				<input type="password" name="user-password" id="password" placeholder="1234passw0rd" required />
 
 				<button type="submit">Sign Up</button>
 				<p><a href="/forgot-password/new">Forgot Password?</a></p>
 			</form>
-	</section>
-
+	
 	<div class="footer">
 	<p>Already have an account? <a href="/login">Log in</a></p></div>
-	</main>
+	
 </body>
 </html>
